@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: solid black 2px;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.navbar__s1 {
+    align-items: center;
+}
+
+.navbar__s1__title {
+    color: #AD79E5;
+}
+
+.navbar__s2 {
+    border-radius: 2px;
+    border: solid black 2px;
+    width: 60%;
+    border-radius: 30px;
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar__s2 input {
+    border-style: none;
+    width: 100%;
+    font-size: 15px;
+}
+
+.navbar__s2 input:focus {
+    outline: none;
+}
+
+.navbar__s3 {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    align-items: center;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    border-bottom: solid black 1px;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.categories p {
+    background-color: #AD79E5;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.salespage {
+    position: relative;
+}
+
+.salesimage {
+    width: 100%;
+}
+
+.salespage__cont {
+    position: absolute;
+    top: 50px;
+    padding: 50px;
+    color: darkblue;
+    text-align: center;
+    border: solid darkblue 1px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.recommended {
+    padding: 20px;
+}
+
+.card-container {
+    width: 200px;
+}
+
+.card-container img {
+    width: 100%;
+    height: 50%;
+}
+
+.card-container img {
+    height: 230px;
+    width: 330px;
+    border: solid goldenrod 2px;
+    border-radius: 20px;
+}
+
+.card-container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.fullstack-title, .uiux-title, .digitalmarketing-title, .datascience-title {
+    text-align: center;
+    padding: 5px;
+}
+
+.fullstack-price, .uiux-price, .digitalmarketing-price, .datascience-price {
+    text-align: center;
+    padding: 5px;
+}
+
+.emoji {
+    text-align: center;
+}
+
+.card-container:hover {
+    cursor: pointer;
+}
+
+
+.topics-title {
+    margin: 10px;
+}
+
+.topics {
+    padding: 10px;
+}
+
+.topics-cont {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.topics-cont p {
+    border: solid gray 3px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.topics-cont P:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.popular__container {
+    width: 200px;
+}
+
+.popular__container img {
+    width: 100%;
+    height: 50%;
+}
+
+.popular__container img {
+    height: 230px;
+    width: 330px;
+    border: solid goldenrod 2px;
+    border-radius: 20px;
+}
+
+.popular__container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.fullstack-title, .python-title, .aws-title, .nod-title {
+    text-align: center;
+    padding: 5px;
+}
+
+.fullstack-price, .python-price, .aws-price, .nod-price {
+    text-align: center;
+    padding: 5px;
+}
+
+.popular__container img:hover {
+    cursor: pointer;
+}
+
+.popular {
+    margin: 20px;
+}
+
+.popular__container2 {
+    width: 200px;
+}
+
+.popular__container2 img {
+    width: 100%;
+    height: 50%;
+}
+
+.popular__container2 img {
+    height: 230px;
+    width: 330px;
+    border: solid goldenrod 2px;
+    border-radius: 20px;
+}
+
+.popular__container2 {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.azure-title, .php-title, .react-title, .mongo-title {
+    text-align: center;
+    padding: 5px;
+}
+
+.azure-price, .php-price, .react-price, .mongo-price {
+    text-align: center;
+    padding: 5px;
+}
+
+.popular__container2 img:hover {
+    cursor: pointer;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-section {
+    display: flex;
+    gap: 50px;
+    padding-top: 10px;
+}
+
+.footer {
+    padding: 10px;
+}
+
+.footer-section p {
+    padding-top: 10px;
+}
+
+.footer2 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:600px) {
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .categories {
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 20%;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .categories p{padding: 10px; margin: 10px;}
+  .salespage__cont {display: none;}
+  .card-container {display: flex; flex-grow: 1; flex-basis: 10%; flex-wrap: wrap;}
+  .popular__container2 {display: flex; flex-grow: 1; flex-basis: 10%; flex-wrap: wrap;}
+  .popular__container {display: flex; flex-grow: 1; flex-basis: 10%; flex-wrap: wrap; }
+
+
+
+    
+}
